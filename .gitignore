@@ -1,3 +1,5 @@
+public/
+
 # IDE specific
 .idea/
 .vscode/
