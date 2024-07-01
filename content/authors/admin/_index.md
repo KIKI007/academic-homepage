@@ -1,83 +1,124 @@
 ---
 # Display name
-title: Ziqi Wang
+title: 吳健雄
 
 # Name pronunciation (optional)
-# name_pronunciation: ziqi
+name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Ziqi
-last_name: Wang
+first_name: Shiung Wu
+last_name: Chien
 
 # Status emoji
-# status:
-# icon: ☕️
+status:
+  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
 # Role/position/tagline
-role: Postdoctoral Researcher
+role: Professor of Artificial Intelligence
 
-# Organizations/Affiliations to display in Biography blox
+# Organizations/Affiliations to show in About widget
 organizations:
-  - name: EPFL
-    url: https://www.crclcrclcrcl.org
+  - name: Stanford University
+    url: https://www.stanford.edu/
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: envelope
-    url: 'mailto:ziqi.wang@epfl.ch'
-    label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/KIKI007
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?hl=en&user=LcUIp4oAAAAJ/
-    
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
+# Interests to show in About widget
 interests:
-- Computer Graphics
-- Reinforcement Learning
-- Numerical Optimization
-- Architectural Design & Construction
-- Robot/AR-assisted Assembly
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
 
+# Education to show in About widget
 education:
-  - area: Assistant Professor
-    institution: ISD, HKUST
-    year: 2024 - 
-  - area: Postdoc Arch & RL
-    institution: CRCL & Sycamore, EPF Lausanne
-    year: 2024
-  - area: Postdoc Graphics
-    institution: CRL, ETH Zurich
-    year: 2022 - 2024
-  - area: PhD Graphics 
-    institution: GCM, EPF Lausanne
-    year: 2017 - 2021
-  - area: BSc Mathematics
-    institution: University of Science and Technology of China
-    year: 2013 - 2017
+  courses:
+    - course: PhD in Artificial Intelligence
+      institution: Stanford University
+      year: 2012
+    - course: MEng in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2009
+    - course: BSc in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2008
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-languages:
+  - name: Technical
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: python
+        icon_pack: fab
+      - name: Data Science
+        description: ''
+        percent: 100
+        icon: chart-line
+        icon_pack: fas
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: database
+        icon_pack: fas
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-hiking
+        icon_pack: fas
+      - name: Cats
+        description: ''
+        percent: 100
+        icon: cat
+        icon_pack: fas
+      - name: Photography
+        description: ''
+        percent: 80
+        icon: camera-retro
+        icon_pack: fas
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
+# Social/Academic Networking
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: '/#contact'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/GeorgeCushen
+    label: Follow me on Twitter
+    display:
+      header: true
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/gcushen
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/
+  # Link to a PDF of your resume/CV.
+  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
+  # and uncomment the lines below.
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
 
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 ---
 
-## About Me
-
-Ziqi Wang is an incoming assistant professor of integrated system and design at the Hong Kong University of Science and Technology. His research interests is centered on **computational assemblies**, with the objective of designing, analyzing, fabricating complex assemblies using computation and robotics. His work has been applied to real-world applications, including toy and furniture design, mechanical engineering, and architecture.
+Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+{style="text-align: justify;"}
