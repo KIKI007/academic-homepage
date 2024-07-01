@@ -1,124 +1,87 @@
 ---
 # Display name
-title: 吳健雄
+title: Ziqi Wang
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: ziqi
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Ziqi
+last_name: Wang
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+# icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Postdoctoral Researcher
 
-# Organizations/Affiliations to show in About widget
+# Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: EPFL
+    url: https://www.crclcrclcrcl.org
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-# Interests to show in About widget
-interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
-
-# Education to show in About widget
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
-
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+# Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: mailto:ziqi.wang@epfl.ch
+    label: E-mail Me
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/KIKI007
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
+    link: https://www.linkedin.com/in/ziqi-wang-967485119/
+  - icon: google-scholar
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: https://scholar.google.com/citations?hl=en&user=LcUIp4oAAAAJ/
+    
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
+interests:
+- Computer Graphics
+- Robot & XR
+- Architectural & Construction
+- Machine Learning
+
+education:
+  courses:
+  - course: Assistant Professor
+    institution: ISD, HKUST
+    year: 2024 - 
+  - course: Postdoc Arch & RL
+    institution: CRCL & Sycamore, EPF Lausanne
+    year: 2024
+  - course: Postdoc Graphics
+    institution: CRL, ETH Zurich
+    year: 2022 - 2024
+  - course: PhD Graphics 
+    institution: GCM, EPF Lausanne
+    year: 2017 - 2021
+  - course: BSc Mathematics
+    institution: University of Science and Technology of China
+    year: 2013 - 2017
+
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
+skills:
+languages:
+
+# Awards.
+#   Add/remove as many awards below as you like.
+#   Only `title`, `awarder`, and `date` are required.
+#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+awards:
+
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+## About Me
+
+Ziqi Wang is an incoming assistant professor of integrated system and design at the Hong Kong University of Science and Technology. His research interests is centered on **computational assemblies**, with the objective of designing, analyzing, fabricating complex assemblies using computation and robotics. His work has been applied to real-world applications, including toy and furniture design, mechanical engineering, and architecture.
