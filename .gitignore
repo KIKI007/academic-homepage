@@ -1,5 +1,4 @@
 public/
-resources/*
 # IDE specific
 .idea/
 .vscode/
